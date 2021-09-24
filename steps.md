@@ -1,35 +1,35 @@
-Iniciar node
-- npm init -y
+- Iniciar node
+npm init -y
 
-Sequelize (ORM)
+- Sequelize (ORM)
 npm add express pg pg-hstore squelize
 
-Sequelize
+- Sequelize
 npm add sequelize-cli
 
-Options sequelize command lines
+- Options sequelize command lines
 npx sequelize --help
 
-Nodemon (helper server)
+- Nodemon (helper server)
 npm add nodemon
 
-Run server
+- Run server
 npm run dev
 
-Create database with Sequelize (necessary configure file .sequelizerc)
+- Create database with Sequelize (necessary configure file .sequelizerc)
 npx sequelize db:create
 
-Create Migration
+- Create Migration
 npx sequelize migration:create --name=create_table_name
 
-PAC for group routes
+- PAC for group routes
 npm i express-group-routes
 
-Run Migrate
+- Run Migrate
 npx sequelize db:migrate
 
-Run Rollback
+- Run Rollback
 npx sequelize db:migrate:undo
 
-Group Routes
+- Group Routes
 npm i express-group-routes
