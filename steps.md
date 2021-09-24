@@ -1,5 +1,5 @@
 Iniciar node
-npm init -y
+- npm init -y
 
 Sequelize (ORM)
 npm add express pg pg-hstore squelize
